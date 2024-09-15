@@ -1,0 +1,125 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Sep  8 22:33:31 2024
+# Process ID: 16732
+# Current directory: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16828 F:\ZYNQ_LINUX\ZYNQ_DDR_TEST\DDR_TEST.xpr
+# Log file: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/vivado.log
+# Journal file: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST\vivado.jou
+# Running On: DESKTOP-9J8ND72, OS: Windows, CPU Frequency: 3893 MHz, CPU Physical cores: 12, Host memory: 14907 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at F:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2022.1/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'design_1_processing_system7_0_1' generated file not found 'f:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_processing_system7_0_1' generated file not found 'f:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_processing_system7_0_1' generated file not found 'f:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_processing_system7_0_1' generated file not found 'f:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_processing_system7_0_1' generated file not found 'f:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_1/design_1_processing_system7_0_1_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1239.742 ; gain = 18.543
+update_compile_order -fileset sources_1
+generate_target all [get_files  F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.srcs/sources_1/bd/design_1/design_1.bd]
+export_ip_user_files -of_objects [get_files F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs design_1_processing_system7_0_1_synth_1 -jobs 10
+[Sun Sep  8 22:34:17 2024] Launched design_1_processing_system7_0_1_synth_1...
+Run output will be captured here: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.runs/design_1_processing_system7_0_1_synth_1/runme.log
+export_simulation -of_objects [get_files F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.srcs/sources_1/bd/design_1/design_1.bd] -directory F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.ip_user_files/sim_scripts -ip_user_files_dir F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.ip_user_files -ipstatic_source_dir F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.cache/compile_simlib/modelsim} {questa=F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.cache/compile_simlib/questa} {riviera=F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.cache/compile_simlib/riviera} {activehdl=F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_bd_design {F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Successfully read diagram <design_1> from block design file <F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.srcs/sources_1/bd/design_1/design_1.bd>
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+startgroup
+set_property -dict [list CONFIG.PCW_USE_M_AXI_GP0 {1}] [get_bd_cells processing_system7_0]
+endgroup
+connect_bd_net [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK]
+save_bd_design
+Wrote  : <F:\ZYNQ_LINUX\ZYNQ_DDR_TEST\DDR_TEST.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+reset_run design_1_processing_system7_0_1_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+WARNING: [BD 41-2670] Found an incomplete address path from address space '/processing_system7_0/Data' to master interface '/processing_system7_0/M_AXI_GP0'. Please either complete or remove this path to resolve.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_objects /processing_system7_0/Data'
+Wrote  : <F:\ZYNQ_LINUX\ZYNQ_DDR_TEST\DDR_TEST.srcs\sources_1\bd\design_1\design_1.bd> 
+Verilog Output written to : f:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : f:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : f:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+Exporting to file f:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File f:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.gen/sources_1/bd/design_1/synth/design_1.hwdef
+[Sun Sep  8 22:36:25 2024] Launched design_1_processing_system7_0_1_synth_1, synth_1...
+Run output will be captured here:
+design_1_processing_system7_0_1_synth_1: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.runs/design_1_processing_system7_0_1_synth_1/runme.log
+synth_1: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.runs/synth_1/runme.log
+[Sun Sep  8 22:36:25 2024] Launched impl_1...
+Run output will be captured here: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1642.520 ; gain = 265.000
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1786.797 ; gain = 0.000
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 2406.746 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.106 . Memory (MB): peak = 2406.746 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2406.746 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 2521.836 ; gain = 879.316
+write_hw_platform -fixed -include_bit -force -file F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/design_1_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/design_1_wrapper.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/design_1_wrapper.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (F:/Xilinx/Vivado/2022.1/data/embeddedsw) loading 1 seconds
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+open_bd_design {F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.srcs/sources_1/bd/design_1/design_1.bd}
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Sun Sep  8 22:58:42 2024] Launched impl_1...
+Run output will be captured here: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.runs/impl_1/runme.log
+write_hw_platform -fixed -include_bit -force -file F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.xsa
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Sep  8 23:48:39 2024...

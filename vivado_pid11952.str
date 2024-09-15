@@ -1,0 +1,125 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 11952
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Sep 13 17:04:46 CST 2024
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 2560x1440
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.11 64-bit
+Java home: 	F:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	F:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	FIsh
+User home directory: C:/Users/FIsh
+User working directory: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: F:/Xilinx/Vivado
+HDI_APPROOT: F:/Xilinx/Vivado/2022.1
+RDI_DATADIR: F:/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: F:/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/FIsh/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/FIsh/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/FIsh/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	F:/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/vivado.log
+Vivado journal file: 	F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/vivado.jou
+Engine tmp dir: 	F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/.Xil/Vivado-11952-DESKTOP-9J8ND72
+
+Xilinx Environment Variables
+----------------------------
+XILINX: F:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: F:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: F:/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: F:/Xilinx/Vivado/2022.1
+XILINX_SDK: F:/Xilinx/Vitis/2022.1
+XILINX_VITIS: F:/Xilinx/Vitis/2022.1
+XILINX_VIVADO: F:/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: F:/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,255 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 77 MB (+78755kb) [00:00:10]
+// [Engine Memory]: 1,255 MB (+1164331kb) [00:00:10]
+// Opening Vivado Project: F:\ZYNQ_LINUX\ZYNQ_DDR_TEST\DDR_TEST.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,255 MB. GUI used memory: 60 MB. Current time: 9/13/24, 5:04:47 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2022.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 89 MB (+8526kb) [00:00:17]
+// [GUI Memory]: 114 MB (+20666kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  2817 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1218.355 ; gain = 0.000 
+// Project name: DDR_TEST; location: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 133 MB (+13763kb) [00:01:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,255 MB. GUI used memory: 74 MB. Current time: 9/13/24, 5:34:50 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,255 MB. GUI used memory: 65 MB. Current time: 9/13/24, 6:04:53 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,255 MB. GUI used memory: 64 MB. Current time: 9/13/24, 6:34:56 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,255 MB. GUI used memory: 65 MB. Current time: 9/13/24, 7:04:59 PM CST
