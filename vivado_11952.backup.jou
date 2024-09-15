@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Sep 13 17:04:21 2024
+# Process ID: 11952
+# Current directory: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15304 F:\ZYNQ_LINUX\ZYNQ_DDR_TEST\DDR_TEST.xpr
+# Log file: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/vivado.log
+# Journal file: F:/ZYNQ_LINUX/ZYNQ_DDR_TEST\vivado.jou
+# Running On: DESKTOP-9J8ND72, OS: Windows, CPU Frequency: 3893 MHz, CPU Physical cores: 12, Host memory: 14907 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/ZYNQ_LINUX/ZYNQ_DDR_TEST/DDR_TEST.xpr
+update_compile_order -fileset sources_1
